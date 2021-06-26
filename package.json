@@ -1,0 +1,22 @@
+{
+  "name": "recipe-website",
+  "version": "1.0.0",
+  "description": "Tailwind Recipe Website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-love/Tailwind-Recipe.git"
+  },
+  "author": "Rick Love",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick-love/Tailwind-Recipe/issues"
+  },
+  "homepage": "https://github.com/rick-love/Tailwind-Recipe#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
